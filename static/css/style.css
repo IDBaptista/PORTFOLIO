@@ -1,0 +1,894 @@
+@import url('https://fonts.cdnfonts.com/css/brittany-signature');
+:root{
+    --tom-roxo1: #bda6c7;
+    --tom-roxo2: #bda4e7;
+    --tom-roxo3: #9e80d8; 
+    --tom-back: #edeced;
+    --tom-letras: #000000;
+    --tom-hovercabecalho: #ffffff;
+
+    --fonte-cabecalho: 'Questrial', sans-serif;
+    --fonte-texto: 'Brittany Signature', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--tom-back);
+}
+
+nav{
+    background-color: var(--tom-roxo2);
+    padding: 20px;
+    font-family: var(--fonte-cabecalho);
+    font-size: 18px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 5%;
+    position: relative;
+    left: 45%;
+    text-decoration: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--tom-letras);
+    font-weight: 100;
+}
+
+.idbaptista{
+    position: relative;
+    right: 45%;
+}
+
+nav li a:hover{
+    color: var(--tom-hovercabecalho);
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+/* CSS HOME */
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.home .perfil{
+    width: 50%;
+    position: relative;
+    margin-top: 10%;
+    left: 20%;
+    z-index: -1;
+}
+
+.home .meteoro{
+    width: 20%;
+    position: absolute;
+    top: 42%;
+    left: 5%;
+}
+
+.bemvindo .starpaper{
+    width: 13%;
+    margin-top: 8%;
+    position: relative;
+    left: 70%;
+    z-index: 1;
+}
+
+.renda{
+    position: absolute;
+    top: 17%; /* Ajuste conforme necessário para sobrepor suavemente */
+    left: 41%;
+    width: 50%;
+    z-index: -1; /* Mantém acima, mas sem esconder completamente os textos */
+}
+
+.home h1{
+    font-family: var(--fonte-texto);
+    font-size: 90px;
+    margin-left: 15%;
+    z-index: 1;
+}
+
+.home h2{
+    font-family: var(--fonte-cabecalho);
+    font-size: 60px;
+    position: relative;
+    right: 4%;
+    font-weight: 100;
+    z-index: 1;
+}
+
+/* CSS SOBRE */
+
+.sobre h1{
+    font-family: var(--fonte-cabecalho);
+    font-size: 70px;
+    font-weight: 100;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.sobre .saturn{
+    width: 5%;
+    margin-left: 37%;
+    position: absolute;
+    bottom:-5%;
+}
+
+.text p{
+    font-family: var(--fonte-cabecalho);
+    font-size: 22px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+    align-items: center;
+
+    padding: 2% 4%;
+    border: #bda4e7 5px solid;
+    border-radius: 20px;
+    background-color: var(--tom-roxo2);
+    z-index: -1;
+}
+
+.light1{
+    width: 10%;
+    z-index: 10;
+    position: absolute;
+    top: 115%;
+    left: 4%;
+}
+
+
+.light2{
+    width: 10%;
+    z-index: 10;
+    position: absolute;
+    top: 170%;
+    left: 90%;
+}
+
+
+/* CSS SKILLS */
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+    margin-top: 10%;
+    z-index: -1;
+}
+
+.skills .hard h2{
+    font-family: var(--fonte-cabecalho);
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 40%;
+    z-index: -1;
+}
+
+.skills .soft h2{
+    font-family: var(--fonte-cabecalho);
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 40%;
+    z-index: -1;
+
+}
+
+.skillsline{
+    width: 6%;
+    position: relative;
+    left: 50%;
+    z-index: 10;
+}
+
+.hard ul{
+    position: absolute;
+    top: 220%;
+    font-family: var(--fonte-cabecalho);
+    font-size: 20px;
+
+}
+
+.soft ul{
+    position: absolute;
+    top: 220%;
+    left: 20%;
+    margin-bottom: 30%;
+    font-family: var(--fonte-cabecalho);
+    font-size: 20px;
+}
+
+/* CSS FRONT */
+.front h1{
+    font-family: var(--fonte-cabecalho);
+    font-weight: 100;
+    font-size: 70px;
+    margin-left: 10%;
+
+}
+
+.front .star{
+    width: 5%;
+    position: absolute;
+    top: 245%;
+    margin-left: 4%;
+}
+
+.front .fronts{
+    margin-bottom: 10%;
+    margin-left: 17%;
+}
+
+.css{
+    margin-right: 7%;
+}
+
+.html{
+    margin-right: 7%;
+}
+.js{
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+
+.css:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.js:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+ .html:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* CSS BACK */
+
+.back h1{
+    font-family: var(--fonte-cabecalho);
+    font-weight: 100;
+    font-size: 70px;
+    margin-left: 10%;
+    z-index: 10;
+}
+
+.gradiente1{
+    z-index: -1;
+    position: absolute;
+    width: 320px;
+    top: 308%;
+}
+
+.back .backs{
+    margin-bottom: 10%;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+.flask{
+    margin-right: 7%;
+}
+
+.sql{
+    margin-right: 7%;
+}
+.python{
+    margin-right: 8%;
+}
+
+
+.flask:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.sql:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+ .python:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+/* CSS PROJETOS */
+
+.projetos h1{
+    font-family: var(--fonte-cabecalho);
+    font-size: 70px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    font-weight: 100;
+}
+
+.projeto{
+    width: 4%;
+    margin-left: 27.7%;
+    z-index: 10;
+    position: absolute;
+    top: 410%;
+}
+.projetos_imagens{
+    position: relative;
+    right: 8%;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.slide {
+  display: none;
+  position: relative; /* Necessário para posicionar as setas dentro da imagem */
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--tom-roxo2);
+  font-weight: bold;
+  font-size: 40px;
+  user-select: none;
+  padding: 20px;
+  z-index: 10;
+}
+
+
+.prev { left: -50px; }
+.next { right: -350px; }
+
+.prev:hover, .next:hover {
+  color: var(--tom-hovercabecalho);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+
+
+
+/* CSS CONTATO */
+
+.contato h1{
+    font-family: var(--fonte-cabecalho);
+    font-size: 100px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 100;
+    z-index: -1;
+}
+
+.formulario {
+    background-color: var(--tom-roxo3);
+    padding: 30px 25px;
+    border-radius: 25px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: var(--fonte-cabecalho);
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    position: absolute;
+    left: 60%;
+    top: 520%;
+    z-index: 10;
+}
+
+.formulario h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    border: none;
+    border-radius: 30px;
+    padding: 12px 15px;
+    font-family: var(--fonte-cabecalho);
+    font-size: 0.9rem;
+    resize: none;
+}
+
+.formulario textarea {
+    border-radius: 25px;
+    height: 120px;
+}
+
+.formulario button {
+    background-color: white;
+    color: var(--tom-roxo3);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: var(--fonte-cabecalho);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #e5d4f5;
+}
+
+.ampulheta{
+    width: 7%;
+    position: absolute;
+    top: 564%;
+    left: 78%;
+    z-index: 10;
+}
+
+.gradiente2{
+    width: 350px;
+    position: absolute;
+    top: 555%;
+    left: 76.9%;
+    z-index: -1;
+}
+
+.linkedin a{
+    font-family: var(--fonte-cabecalho);
+    text-decoration: none;
+    color: var(--tom-letras);
+    font-size: 23px;
+    position: absolute;
+    top: 530%;
+    left: 28%;
+    opacity: 80%;
+}
+
+.gmail p{
+    font-family: var(--fonte-cabecalho);
+    text-decoration: none;
+    color: var(--tom-letras);
+    font-size: 23px;
+    position: absolute;
+    top: 545%;
+    left: 28%;
+    opacity: 80%;
+}
+
+.github a{
+    font-family: var(--fonte-cabecalho);
+    text-decoration: none;
+    color: var(--tom-letras);
+    font-size: 23px;
+    position: absolute;
+    top: 560%;
+    left: 28%;
+    opacity: 80%;
+}
+
+.icongithub{
+    position: absolute;
+    top: 555%;
+    left: 20%;
+
+}
+.icongmail{
+    position: absolute;
+    top: 542%;
+    left: 20.6%;
+
+}
+.iconlinkedin{
+    position: absolute;
+    top: 528%;
+    left: 21%;
+}
+
+.saturn2{
+    position: absolute;
+    top: 514%;
+    left: 47%;
+    z-index: 10;
+}
+
+.pontilhado{
+    position: absolute;
+    width: 35%;
+    top: 540%;
+    left: 12%;
+    z-index: -10;
+
+}
+
+.pontodeluz{
+    position: absolute;
+    width: 10%;
+    left: 57%;
+    top: 510%;
+    z-index: 11;
+}
+
+.linkedin a:hover{
+    text-decoration: underline;
+    color: var(--tom-roxo3);
+    transition: 0.5s;
+}
+
+.github a:hover{
+    text-decoration: underline;
+    color: var(--tom-roxo3);
+    transition: 0.5s;
+}
+
+
+/* =========================================== */
+/* ===== MOBILE RESPONSIVE STYLES ADDED ===== */
+/* =========================================== */
+@media (max-width: 767px) {
+
+    /* --- General Adjustments --- */
+    body {
+        font-size: 16px; /* Adjust base font size */
+        line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+        line-height: 1.2;
+    }
+
+    section { /* Reduce padding for sections */
+        padding: 30px 15px;
+        margin-top: 0 !important; /* Override large margins */
+    }
+
+    img { /* Prevent images from overflowing */
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* --- Navigation --- */
+    nav {
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 0; /* Remove default padding */
+        list-style: none; /* Remove bullets */
+        display: flex; /* Use flexbox for horizontal layout */
+        flex-wrap: wrap; /* Allow wrapping if needed */
+        justify-content: center; /* Center the links */
+        gap: 10px; /* Space between links */
+        margin-top: 5px; /* Add a small space below the logo */
+    }
+
+    nav li {
+        /* display: block; */ /* Remove block display */
+        display: inline; /* Let flexbox handle layout */
+        margin: 0; /* Reset margin */
+        position: static; /* Reset positioning */
+        left: auto;
+    }
+
+    nav li a {
+        font-size: 22px; /* Slightly smaller font for mobile nav */
+        padding: 5px 8px; /* Adjust padding */
+    }
+
+    .idbaptista {
+        position: static; /* Reset positioning */
+        right: auto;
+        display: block; /* Make it a block element */
+        margin-bottom: 10px;
+        font-size: 1.3rem; /* Adjust logo size if needed */
+    }
+
+    nav li a:hover {
+        transform: none; /* Disable hover scale on mobile */
+        color: var(--tom-hovercabecalho); /* Keep hover color */
+        background-color: rgba(0,0,0,0.1); /* Optional: subtle hover background */
+        border-radius: 3px;
+    }
+    /* --- Home Section --- */
+    .home {
+        grid-template-columns: 1fr; /* Single column layout */
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .home .foto {
+        order: 1; /* Show image first */
+        margin-bottom: 20px;
+    }
+
+    .home .bemvindo {
+        order: 2;
+    }
+
+    .home .perfil {
+        width: 70%; /* Adjust size */
+        max-width: 250px;
+        position: static; /* Reset positioning */
+        margin: 0 auto; /* Center image */
+        left: auto;
+    }
+
+    .home h1 {
+        font-size: 57px; /* Adjust font size */
+        margin-left: 0;
+        margin-top: 25%;
+        margin-bottom: 20px;
+    }
+
+    .home h2 {
+        font-size: 32px; /* Adjust font size */
+        position: static; /* Reset positioning */
+        right: auto;
+        margin-bottom: 20px;
+    }
+
+    .bemvindo .starpaper {
+        display: none;
+    }
+    /* Hide or reposition decorative elements */
+    .home .meteoro{
+        width: 200px; /* Hide decorative element */
+        position: absolute;
+        top: 36%;
+    }
+
+    .home .renda{
+        width: 350px; /* Hide decorative element */
+        position: absolute;
+        left: 5%;
+        top: 67%;
+    }
+
+    /* --- Sobre Section --- */
+    .sobre {
+        margin-top: 0; /* Reset large margin */
+    }
+
+    .sobre h1 {
+        font-size: 40px; /* Adjust font size */
+        margin-left: 0;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .text p {
+        font-size: 15px; /* Adjust font size */
+        margin-left: 0;
+        margin-top: 15px;
+        padding: 13px;
+        max-width: 100%; /* Allow full width */
+        border-width: 3px;
+    }
+
+    /* Hide or reposition decorative elements */
+    .sobre .light1{
+        position: absolute;
+        top: 105%;
+        left: 80%;
+        width: 100px; /* Adjust size */
+    }
+
+    .sobre .light2{
+        position: absolute;
+        top: 183%;
+        left: 5%;
+        width: 100px; /* Adjust size */
+    }
+
+    .sobre .saturn {
+        width: 50px; /* Adjust size */
+        position: absolute;
+    
+        left: 50%;
+        transform: translateX(-50%); /* Center it */
+    }
+
+    /* --- Skills Section --- */
+    .skills {
+        grid-template-columns: 1fr; /* Single column layout */
+        margin-left: 0;
+        margin-top: 0;
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .skills h2 {
+        font-size: 36px; /* Adjust font size */
+        margin-bottom: 10px; /* Adjust margin */
+    }
+
+    .skills ul {
+        position: static; /* Reset positioning */
+        margin: 0 auto 20px auto; /* Center list */
+        padding-left: 20px; /* Add padding for bullets */
+        font-size: 18px;
+        text-align: left; /* Align text left */
+        display: inline-block; /* Allow centering */
+    }
+
+    .skills .hard ul {
+        top: auto; /* Reset top */
+    }
+
+    .skills .hard{
+        margin-bottom: 20px; /* Add space between hard and soft skills */
+    }
+
+    .skills .soft{
+        margin-top: 20px; /* Add space between hard and soft skills */
+    }
+
+    .skillsline {
+        display: none; /* Hide decorative element */
+    }
+
+    /* --- Front/Back End Sections --- */
+    .front h1, .back h1 {
+        font-size: 40px; /* Adjust font size */
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .front .fronts, .back .backs {
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .fronts img, .backs img {
+        width: 100px; /* Adjust icon size */
+        margin: 5px;
+    }
+
+    /* Hide or reposition decorative elements */
+    .front .star, .gradiente1 {
+        display: none; /* Hide decorative elements */
+    }
+
+    .gradiente1{
+        display: none;
+    }
+
+    /* --- Projetos Section --- */
+    .projetos h1 {
+        font-size: 40px; /* Adjust font size */
+        margin-left: 0;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .projetos_imagens {
+        position: static; /* Reset positioning */
+        right: auto;
+    }
+
+    .slideshow-container {
+        max-width: 95%; /* Use more width */
+    }
+
+    .prev, .next {
+        font-size: 24px; /* Adjust arrow size */
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4); /* Make background slightly darker */
+        border-radius: 5px;
+    }
+
+    .prev { left: 5px; } /* Adjust position */
+    .next { right: 5px; } /* Adjust position */
+
+    /* Hide or reposition decorative elements */
+    .projeto {
+        display: none; /* Hide decorative element */
+    }
+
+    /* --- Contato Section --- */
+    .contato {
+        padding: 30px 15px;
+    }
+
+    .contato h1 {
+        font-size: 40px; /* Adjust font size */
+        margin-left: 0;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+        line-height: 1.1;
+    }
+
+    .formulario {
+        position: static; /* Reset positioning */
+        left: auto;
+        top: auto;
+        width: 90%; /* Adjust width */
+        max-width: 400px;
+        margin: 20px auto; /* Center form */
+        padding: 20px;
+    }
+
+    .contato-info-container { /* Create a container if needed */
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .linkedin a{
+        position: absolute; /* Reset positioning */
+        top: 490%;
+        width: 60px; /* Adjust icon size */}
+
+    .gmail p{
+        position: absolute; /* Reset positioning */
+        top: 510%;
+        width: 60px; /* Adjust icon size */
+    }   
+    .github a{
+        position: absolute; /* Reset positioning */
+        top: 525%;
+        width: 60px; /* Adjust icon size */
+    }
+    .icongithub, .icongmail, .iconlinkedin {
+        width: 40px; /* Adjust icon size */
+        position: absolute; /* Reset positioning */
+        left: 10%; /* Center icons */
+    }
+
+    .icongithub {
+        top: 525%;
+    }
+    .icongmail {
+        top: 510%;
+    }
+    .iconlinkedin {
+        top: 490%;
+    }
+    
+
+    /* Hide or reposition decorative elements */
+    .ampulheta, .gradiente2, .pontilhado, .pontodeluz {
+        display: none; /* Hide decorative elements */
+    }
+
+    .saturn2 {
+        width: 50px; /* Adjust size */
+        position: absolute; /* Reset positioning */
+        top: 414.7%;
+        left: 75.8%;
+    }
+}

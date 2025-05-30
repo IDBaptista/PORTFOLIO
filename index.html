@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<nav>
+    <ul>
+        <li><a class="idbaptista" href="#idbap">IDBaptista</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contatos">Contato</a></li>
+    </ul>
+</nav>
+<body>
+    <div class="geral">
+        <div id="idbap" class="home">
+            <div class="foto">
+                <img class="perfil" src="../static/img/perfil.png" alt="foto_isa">
+                <img class="meteoro" src="../static/img/details/estrelameteoro.png" alt="meteoro">
+            </div>
+            <div class="bemvindo">
+                <img class="starpaper" src="../static/img/details/starpaper.png" alt="star">
+                <h1>Prazer,</h1>
+                <h2>Isabelly Dias Baptista</h2>
+                <img class="renda" src="../static/img/details/renda.png" alt="">
+            </div>
+        </div>
+
+        <div id="sobre" class="sobre">
+            <img class="saturn" src="../static/img/details/saturn.png" alt="saturno">
+            <h1>SOBRE MIM</h1>
+
+            <div class="text">
+                <img src="../static/img/details/light1.png" alt="" class="light1">
+                <p>Desenvolvedora com atuação nas áreas de Front-End e Back-End, movida pela curiosidade e pela vontade constante de aprender e evoluir. Desde que comecei a explorar o universo da tecnologia, me encantei com a possibilidade de transformar ideias abstratas em soluções concretas que facilitam o dia a dia das pessoas. Para mim, programar é tanto um exercício técnico quanto criativo — uma forma de expressar lógica, empatia e inovação em cada linha de código.</p>
+                <img src="../static/img/details/light2.png" alt="" class="light2">
+                <p>Tenho experiência prática com linguagens como JavaScript e Python, além de familiaridade com ferramentas e frameworks como Flask, SQLite3 e CSS. Ao longo dos meus estudos e projetos, desenvolvi não só habilidades técnicas, mas também a capacidade de pensar de forma crítica e analítica, planejar com atenção aos detalhes e adaptar soluções conforme os desafios se apresentam. Gosto de entender como cada parte do sistema se conecta — tanto no visual quanto na estrutura por trás da interface — e acredito que um bom projeto é aquele que une clareza, funcionalidade e propósito.</p>
+            </div>
+        </div>
+
+        <div id="skills" class="skills">
+            <div class="soft">
+                <h2>SOFT SKILLS</h2>
+                <ul>
+                    <li>
+                        Comunicação clara
+                    </li>
+                    <li>
+                        Trabalho em equipe
+                    </li>
+                    <li>
+                        Proatividade
+                    </li>
+                    <li>
+                        Resolução de problemas
+                    </li>
+                </ul>
+            </div>
+            <div class="hard">
+                <h2>HARD SKILLS</h2>
+                <ul>
+                    <li>
+                        Consumo de APIs
+                    </li>
+                    <li>
+                        Integração com front-end
+                    </li>
+                    <li>
+                        Integração com Flask
+                    </li>
+                    <li>
+                        Hospedagem de sites
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="front">
+            <h1>FRONT-END</h1>
+            <img class="star" src="../static/img/details/starlight.png" alt="star">
+            <div class="fronts">
+                <img src="/static/img/frontback/html.png" width="300" alt="" class="html">
+                <img src="/static/img/frontback/js.png" alt="" width="300" class="js">
+                <img src="/static/img/frontback/css.png" alt="" width="300" class="css">
+            </div>
+        </div>
+
+        <div class="back">
+            <h1>BACK-END</h1>
+            <img class="gradiente1" src="../static/img/details/gradiente1.png" alt="star">
+            <div class="backs">
+                <img src="/static/img/frontback/sqlite.png" alt="" width="300" class="sql">
+                <img src="/static/img/frontback/python.png" alt="" width="300" class="python">
+                <img src="/static/img/frontback/flask.png" alt="" width="300" class="flask">
+            </div>
+        </div>
+
+
+        <div id="projetos" class="projetos">
+            <h1>PROJETOS</h1>
+            <img class="projeto" src="../static/img/details/projetos.png" alt="star">
+            <div class="projetos_imagens">
+                <!-- Coloque isso dentro do seu <body>, onde quiser o slideshow -->
+                <div class="slideshow-container">
+                    <div class="slide fade">
+                        <img src="../static/img/pages/ghibli.png" onclick="" alt="Ghibli" style="width:150%">
+                    </div>
+                    <div class="slide fade">
+                        <img src="../static/img/pages/maverick.png" onclick="maverick()" alt="Maverick" style="width:150%">
+                    </div>
+                    <div class="slide fade">
+                        <img src="../static/img/pages/gamemaster.png" onclick="gamemaster()" alt="GameMaster" style="width:150%">
+                    </div>
+                    <div class="slide fade">
+                        <img src="../static/img/pages/gtmax.png" onclick="gtmax()" alt="GTMAX" style="width:150%">
+                    </div>
+
+                    <div class="slide fade">
+                        <img src="../static/img/pages/rayssa.png" onclick="atletas()" alt="atletas" style="width:150%">
+                    </div>
+
+                    <!-- Botões de navegação -->
+                    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contatos" class="contato">
+            <h1>ENTRE<br>EM CONTAT</h1>
+            <img src="../static/img/details/saturn2.png" class="saturn2" alt="">
+            <div class="linkedin">
+                <img src="../static/img/icons/linkedin.png" alt="iconlinkedin" class="iconlinkedin">
+                <a href="https://www.linkedin.com/in/isabelly-dias-baptista-13a95b278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Isabelly Dias Baptista</a>
+            </div>
+            <div class="gmail">
+                <img src="../static/img/icons/gmail.png" alt="icongmail" class="icongmail">
+                <p>isabelly.diasbap@gmail.com</p>
+            </div>
+            <div class="github">
+                <img src="../static/img/icons/git.png" alt="icongithub" class="icongithub">
+                <a href="https://github.com/IDBaptista">/IDBaptista</a>
+            </div>
+
+            <img src="../static/img/details/light3.png" alt="" class="pontodeluz">
+           <form class="formulario" action="https://formsubmit.co/isabelly.diasbap@gmail.com" method="POST"> 
+                <h3>ENVIE A SUA MENSAGEM</h3>
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <img src="../static/img/details/pontilhado.png" alt="" class="pontilhado">
+            <img src="../static/img/details/ampulheta.png" alt="ampulheta" class="ampulheta">
+            <img src="../static/img/details/gradiente2.png" alt="gradiente" class="gradiente2">
+
+        </div>
+    </div>
+    
+    <script src="../static/js/script.js" ></script>
+</body>
+</html>
