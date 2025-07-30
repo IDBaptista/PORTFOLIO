@@ -1,1 +1,19 @@
-# PORTFOLIO 2025
+# PROJETO PORTFOLIO 2025
+O Projeto Portfolio do curso Desenvolvimento de Sistemas (3° Sementre) foi uma prática nas linguagens HTML e CSS.
+
+# FINALIDADE
+Desenvolver a partir dos conhecimentos e pesquisas sobre HTML e CSS o meu próprio portfólio para possíveis vagas futuras.
+Foi desenvolvido por mim e pude aplicar o desenvolvimento de um site responsivo, podendo ser acessado via celular e notebook.
+# IMAGENS E LINK
+
+## DESENVOLVIMENTO:
+![print sejabemvindo](/static/assets/sejabemvindo.png)
+![print nós](/static/assets/nós.png)
+![print seguranca](/static/assets/segurança.png)
+![print comoinvestir](/static/assets/comoinvestir.png)
+![print investimentos](/static/assets/investimentos.png)
+![print simular](/static/assets/simular.png)
+
+Links
+> [Protótipo](https://www.canva.com/design/DAGWd0iwLqs/dR-x1w_g0sgkz82WUltldQ/view?utm_content=DAGWd0iwLqs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4812761b38)  
+
