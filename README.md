@@ -7,7 +7,7 @@ Foi desenvolvido por mim e pude aplicar o desenvolvimento de um site responsivo,
 # IMAGENS E LINK
 
 ## DESENVOLVIMENTO:
-![print sejabemvindo](/static/assets/sejabemvindo.png)
+![print inicio](/static/print/inicio.png)
 ![print nós](/static/assets/nós.png)
 ![print seguranca](/static/assets/segurança.png)
 ![print comoinvestir](/static/assets/comoinvestir.png)
