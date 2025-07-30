@@ -8,11 +8,11 @@ Foi desenvolvido por mim e pude aplicar o desenvolvimento de um site responsivo,
 
 ## DESENVOLVIMENTO:
 ![print inicio](/static/print/inicio.png)
-![print nós](/static/assets/nós.png)
-![print seguranca](/static/assets/segurança.png)
-![print comoinvestir](/static/assets/comoinvestir.png)
-![print investimentos](/static/assets/investimentos.png)
-![print simular](/static/assets/simular.png)
+![print sobre](/static/print/sobre.png)
+![print soft](/static/print/soft.png)
+![print back](/static/print/back.png)
+![print projetos](/static/print/projetos.png)
+![print contato](/static/print/contato.png)
 
 Links
 > [Protótipo](https://www.canva.com/design/DAGWd0iwLqs/dR-x1w_g0sgkz82WUltldQ/view?utm_content=DAGWd0iwLqs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4812761b38)  
