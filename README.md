@@ -1,5 +1,5 @@
 # PROJETO PORTFOLIO 2025
-O Projeto Portfolio do curso Desenvolvimento de Sistemas (3° Sementre) foi uma prática nas linguagens HTML e CSS.
+O Projeto Portfolio do curso Desenvolvimento de Sistemas (3° Semestre) foi uma prática nas linguagens HTML e CSS.
 
 # FINALIDADE
 Desenvolver a partir dos conhecimentos e pesquisas sobre HTML e CSS o meu próprio portfólio para possíveis vagas futuras.
